@@ -1,0 +1,36 @@
+{
+  "name": "@xcy-fed/utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jennifer-Liuu/utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jennifer-Liuu/utils/issues"
+  },
+  "homepage": "https://github.com/Jennifer-Liuu/utils#readme",
+  "peerDependencies": {
+    "dexie": "^3.0.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.176",
+    "rollup": "^2.58.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4",
+    "dexie": "^3.0.3",
+    "lodash": "^4.17.21"
+  }
+}
